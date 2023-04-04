@@ -28,7 +28,7 @@ class User:
             self.gold_card_points = 200
         else:
             print("User is already a member")
-            return self
+        return self
 
     # Spend Points
     def spend_points(self, amount):
